@@ -34,15 +34,21 @@ h6 {
 /* header styles */
 header {
   background-color: var(--primary-white-color);
+  max-height: 80px;
+  border: 1px solid #f5f5f5
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
-
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 
 .logo-part1 {
@@ -53,11 +59,24 @@ header {
   color: var(--primary-black-color);
 }
 
+.nav-list{
+  display: flex;
+}
+
 .nav-link {
   color: var(--title-text-color);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.nav-list li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-link {
+  display: block;
+  padding: 32px 0;
 }
 
 .nav-link:hover,
@@ -69,15 +88,26 @@ header {
   color: var(--accent-text-color);
 }
 
-.contacnts-link {
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.contacts li:not(:last-child) {
+  margin-right: 50px;
+
+}
+
+.contacts-link {
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding: 32px 0;
 }
 
-.contacnts-link:hover,
-.contacnts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-text-color);
 }
 

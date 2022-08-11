@@ -172,9 +172,6 @@ header {
   margin-left: auto;
   margin-right: auto;
 }
-.hero-button span {
-  padding: 10px 32px;
-}
 
 /* Qalities section styles */
 .qalities .container {
@@ -415,7 +412,7 @@ address {
   letter-spacing: 0.03em;
   margin-top: 0;
   margin-bottom: 20px;
-  
+
   padding-left: 24px;
   padding-right: 24px;
 }
